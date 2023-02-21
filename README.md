@@ -32,8 +32,11 @@ Este projeto feito em JavaScript é um agregador de informações sobre países 
 ## Documentação
 
 [Documentação React](https://reactjs.org/docs/getting-started.html)
+
 [Documentação Nodde.js](https://nodejs.org/pt-br/docs/)
+
 [Documentação Sql](https://dev.mysql.com/doc/)
+
 [Documentação API](https://developers.google.com/maps?hl=pt-br)
 
 ## Documentação de cores
