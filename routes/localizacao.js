@@ -1,5 +1,6 @@
 const {Router} = require("express")
 const router = Router()
+const {authenticate} = require("../models/connection")
 
 const {getLocalizacao} = require("../controllers/localizacaoController")
 const {getLocalizacaoid} = require("../controllers/localizacaoController")
@@ -15,5 +16,7 @@ router.post('/', postLocalizacao)
 router.patch('/', patchLocalizacao)
 
 router.delete('/', deleteLocalizacao)
+
+router.get('/', authenticate)
 
 module.exports = router

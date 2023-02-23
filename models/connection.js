@@ -5,8 +5,14 @@ const sequelize = new Sequelize ('tem_visto', 'root', '@Pah81730', {
     dialect:'mysql'
 })
 
-sequelize.authenticate().then(function(){
-    console.log('conexão foi um sucesso!')
-}).catch(function(erro){
-    console.log('falhou ao conectar:'+erro)
-})
+ async function authenticate(){
+    try {
+    await sequelize.authenticate();
+    console.log('Connection has been established successfully.');
+  } catch (error) {
+    console.error('Unable to connect to the database:', error);
+  }
+}
+module.exports = {
+    authenticate
+}
