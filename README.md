@@ -1,6 +1,8 @@
 
 # Tem Visto?
 
+![Badge em Desenvolvimento](http://img.shields.io/static/v1?label=STATUS&message=EM%20DESENVOLVIMENTO&color=GREEN&style=for-the-badge)
+
 Projeto destinado a estudos de desenvolvimento web. 
 
 Este projeto feito em JavaScript é um agregador de informações sobre países e vistos, utilizando a API do Google Maps Platform.
